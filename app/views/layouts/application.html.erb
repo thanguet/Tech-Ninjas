@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= yield(:title) %> |Ruby on Rails Tutorial Sample App</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+<strong><button type="button" class="btn btn-danger"><%= link_to "Trang chủ", root_path %></button></strong> 
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "UET", '#', id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   root_path %></li>
+        <li><%= link_to "Help",   '#' %></li>
+        <li><%= link_to "Liên Hệ", root_path %></li>
+    </nav>
+  </div>
+</header>
+</body>
+</html>
