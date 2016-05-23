@@ -1,14 +1,26 @@
 Dự án của bọn mình là làm một diễn đàn về quản lý hồ sơ sinh viên để mọi người cùng cập nhật hồ sơ của mình.Các chức năng của dự án là:
+
 +Tạo hồ sơ sinh viên mới  
+
+
 +Tìm kiếm sinh viên muốn xem
+
+
 +Đây là link của ứng dụng :https://sleepy-ocean-17064.herokuapp.com/
+
 +Tạo application_controller.rb,users_controller.rb
 https://github.com/thanguet/Tech-Ninjas/tree/master/app/controllers
+
 tạo home.html.erb,help.html.erb,about.html.erb
 https://github.com/thanguet/Tech-Ninjas/tree/master/app/views/static_pages
+
+
 +tạo model user với name, email:
+
+
 +tạo form hiển thị,edit.html.erb,_form.html.erb,new.html.erb,show.html.erb
 https://github.com/thanguet/Tech-Ninjas/tree/master/app/views/users
+
 +tạo phần test cho tạo hồ sơ:
 https://github.com/thanguet/Tech-Ninjas/blob/master/features/create.feature
 +tạo home.feature:
