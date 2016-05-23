@@ -1,9 +1,9 @@
 Feature: Home
   As a student
-  I want to go to the HomePage
-  So that I can see HomePage
+  I want to go the homepage
+  So that I can see homepage
   
-  Scenario:
-    When I go to the HomePage
-    Then I see the HomePage
-        
+ Scenario:
+   When I go to the homepage
+   Then I see the homepage
+ 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><%= yield(:title) %> |Ruby on Rails Tutorial Sample App</title>
+    <title><%= yield(:title) %> Quản Lý Sinh Viên</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -9,17 +9,23 @@
 <body>
 
 <%= yield %>
-<strong><button type="button" class="btn btn-danger"><%= link_to "Trang chủ", root_path %></button></strong> 
-<header class="navbar navbar-fixed-top navbar-inverse">
+
+ 
+ <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to "UET", '#', id: "logo" %>
+    <!--<%= link_to "Home", root_path, id: "logo" %>-->
+   
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home",   root_path %></li>
-        <li><%= link_to "Help",   '#' %></li>
-        <li><%= link_to "Liên Hệ", root_path %></li>
+        <li><%= link_to "Home",    root_path %></li>
+        <li><%= link_to "Help",    help_path %></li>
+        <li><%= link_to "About", about_path %></li>
+      </ul>
     </nav>
   </div>
+</header>
+  
+</div>
 </header>
 </body>
 </html>
