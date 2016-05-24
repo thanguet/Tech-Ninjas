@@ -1,8 +1,6 @@
-
 Thông tin môn học
   Môn học : Công nghệ phần mềm (INT2208 3)
   Giảng viên: Trương Anh Hoàng
-
 
 Thông tin nhóm
     Tên nhóm : TechNinja
@@ -10,7 +8,7 @@ Thông tin nhóm
         Phan Công Thắng
         Nguyễn Ngọc Duy
         Dương Đình Hiệp
-        <Trần Văn Lương
+        Trần Văn Lương
         Hồ Đức Anh
 Github nhóm : https://github.com/thanguet/Tech-Ninjas
 
@@ -23,10 +21,12 @@ Thông tin dự án
 Các chức năng chính của app
     Tạo mới hồ sơ sinh viên
     Tìm kiếm:
-			    Theo tên
-			    Theo nơi sinh
+	Theo tên
+	Theo nơi sinh
+    Sửa thông tin hồ sơ
+    Xóa hồ sơ sinh viên
 
-Quy trình tạo sản p
+Quy trình tạo sản phẩm
   Tạo application_controller.rb,users_controller.rb github.com/thanguet/Tech-Ninjas/tree/master/app/controllers
   Tạo home.html.erb,help.html.erb,about.html.erb github.com/thanguet/Tech-Ninjas/tree/master/app/views/static_pages
   Tạo model user với name, email:</li>
