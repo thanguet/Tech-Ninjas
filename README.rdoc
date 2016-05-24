@@ -20,8 +20,9 @@ Thông tin dự án
 
 Các chức năng chính của app
     Tạo mới hồ sơ sinh viên
+    Xem chi tiết thông tin hồ sơ sinh viên
     Tìm kiếm:Theo tên, Theo nơi sinh
-    Sửa thông tin hồ sơ
+    Sửa thông tin hồ sơ+
     Xóa hồ sơ sinh viên
 
 Quy trình tạo sản phẩm
