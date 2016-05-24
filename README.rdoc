@@ -1,27 +1,38 @@
-Dự án của bọn mình là làm một diễn đàn về quản lý hồ sơ sinh viên để mọi người cùng cập nhật hồ sơ của mình.Các chức năng của dự án là:
 
-+Tạo hồ sơ sinh viên mới  
-
-
-+Tìm kiếm sinh viên muốn xem
+Thông tin môn học
+  Môn học : Công nghệ phần mềm (INT2208 3)
+  Giảng viên: Trương Anh Hoàng
 
 
-+Đây là link của ứng dụng :https://sleepy-ocean-17064.herokuapp.com/
+Thông tin nhóm
+    Tên nhóm : TechNinja
+    Các thành viên : 
+        Phan Công Thắng
+        Nguyễn Ngọc Duy
+        Dương Đình Hiệp
+        <Trần Văn Lương
+        Hồ Đức Anh
+Github nhóm : https://github.com/thanguet/Tech-Ninjas
 
-+Tạo application_controller.rb,users_controller.rb
-https://github.com/thanguet/Tech-Ninjas/tree/master/app/controllers
+Thông tin dự án
+    Tên phần mềm : Quản lý sinh viên
+    Bài code : https://github.com/thanguet/Tech-Ninjas
+    Pivotaltracker nhóm : https://www.pivotaltracker.com/n/projects/1578125
+    Link app : https://sleepy-ocean-17064.herokuapp.com
 
-tạo home.html.erb,help.html.erb,about.html.erb
-https://github.com/thanguet/Tech-Ninjas/tree/master/app/views/static_pages
+Các chức năng chính của app
+    Tạo mới hồ sơ sinh viên
+    Tìm kiếm:
+			    Theo tên
+			    Theo nơi sinh
+
+Quy trình tạo sản p
+  Tạo application_controller.rb,users_controller.rb github.com/thanguet/Tech-Ninjas/tree/master/app/controllers
+  Tạo home.html.erb,help.html.erb,about.html.erb github.com/thanguet/Tech-Ninjas/tree/master/app/views/static_pages
+  Tạo model user với name, email:</li>
+  Tạo form hiển thị,edit.html.erb,_form.html.erb,new.html.erb,show.html.erb github.com/thanguet/Tech-Ninjas/tree/master/app/views/users
+  Tạo phần test cho tạo hồ sơ: github.com/thanguet/Tech-Ninjas/blob/master/features/create.feature +tạo home.feature: github.com/thanguet/Tech-Ninjas/tree/master/features
 
 
-+tạo model user với name, email:
-
-
-+tạo form hiển thị,edit.html.erb,_form.html.erb,new.html.erb,show.html.erb
-https://github.com/thanguet/Tech-Ninjas/tree/master/app/views/users
-
-+tạo phần test cho tạo hồ sơ:
-https://github.com/thanguet/Tech-Ninjas/blob/master/features/create.feature
-+tạo home.feature:
-https://github.com/thanguet/Tech-Ninjas/tree/master/features
+Kết quả test
+    Độ coverage qua test bằng Cucumber:
