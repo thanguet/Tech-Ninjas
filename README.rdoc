@@ -10,6 +10,7 @@ Thông tin nhóm
         Dương Đình Hiệp
         Trần Văn Lương
         Hồ Đức Anh
+        Trần Xuân Tùng
 Github nhóm : https://github.com/thanguet/Tech-Ninjas
 
 Thông tin dự án
